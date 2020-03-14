@@ -30,11 +30,11 @@ var module1 = document.getElementById('module1')
 EasyPDF.renderPdf('./sample.pdf', { container: module }).then(res => {
   console.log(res)
 })
-EasyPDF.readPdf('./sample.pdf').then(pdf => {
-  EasyPDF.renderPdfPage(pdf, 1, { container: module1 }).then(res => {
-    console.log(res)
-  })
-})
+// EasyPDF.readPdf('./sample.pdf').then(pdf => {
+//   EasyPDF.renderPdfPage(pdf, 1, { container: module1 }).then(res => {
+//     console.log(res)
+//   })
+// })
 </script>
 </body>
 </html>

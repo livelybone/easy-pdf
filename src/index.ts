@@ -130,11 +130,11 @@ export function renderPdf(
         viewer,
       })
 
+      pdfViewer.setDocument(pdf)
       return pdf
         .getPage(1)
         .then(getDefaultViewport)
         .then((viewport: any) => {
-          pdfViewer.setDocument(pdf)
           const viewerWidth = pdfViewer.viewer.clientWidth
           pdfViewer.currentScaleValue = viewerWidth / viewport.width
 
