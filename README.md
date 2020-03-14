@@ -41,14 +41,15 @@ See what method or params you can use in [index.d.ts](./index.d.ts)
 ```js
 import * as EasyPDF from '@livelybone/easy-pdf'
 
+const container = document.getElementById('container')
 /** Render all page */
-EasyPDF.renderPdf('./sample.pdf', { container: module }).then(res => {
+EasyPDF.renderPdf('./sample.pdf', { container }).then(res => {
   console.log(res)
 })
 
 /** Render single page */
 EasyPDF.readPdf('./sample.pdf').then(pdf => {
-  EasyPDF.renderPdfPage(pdf, 1, { container: module1 }).then(res => {
+  EasyPDF.renderPdfPage(pdf, 1, { container }).then(res => {
     console.log(res)
   })
 })

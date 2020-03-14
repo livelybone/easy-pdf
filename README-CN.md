@@ -41,14 +41,15 @@ npm i -S @livelybone/easy-pdf
 ```js
 import * as EasyPDF from '@livelybone/easy-pdf'
 
+const container = document.getElementById('container')
 /** Render all page */
-EasyPDF.renderPdf('./sample.pdf', { container: module }).then(res => {
+EasyPDF.renderPdf('./sample.pdf', { container }).then(res => {
   console.log(res)
 })
 
 /** Render single page */
 EasyPDF.readPdf('./sample.pdf').then(pdf => {
-  EasyPDF.renderPdfPage(pdf, 1, { container: module1 }).then(res => {
+  EasyPDF.renderPdfPage(pdf, 1, { container }).then(res => {
     console.log(res)
   })
 })
