@@ -1,7 +1,7 @@
 # @livelybone/easy-pdf
 [![NPM Version](http://img.shields.io/npm/v/@livelybone/easy-pdf.svg?style=flat-square)](https://www.npmjs.com/package/@livelybone/easy-pdf)
 [![Download Month](http://img.shields.io/npm/dm/@livelybone/easy-pdf.svg?style=flat-square)](https://www.npmjs.com/package/@livelybone/easy-pdf)
-![gzip with dependencies: kb](https://img.shields.io/badge/gzip--with--dependencies-kb-brightgreen.svg "gzip with dependencies: kb")
+![gzip with dependencies: 2kb](https://img.shields.io/badge/gzip--with--dependencies-2kb-brightgreen.svg "gzip with dependencies: 2kb")
 ![typescript](https://img.shields.io/badge/typescript-supported-blue.svg "typescript")
 ![pkg.module](https://img.shields.io/badge/pkg.module-supported-blue.svg "pkg.module")
 
