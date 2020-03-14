@@ -1,8 +1,11 @@
 import { loadRemote } from 'load-remote'
 
 export interface PdfResources {
+  /** Default: 'https://cdn.jsdelivr.net/npm/pdfjs-dist@2.2.228/web/pdf_viewer.css' */
   pdfViewerCssUrl?: string
+  /** Default: 'https://cdn.jsdelivr.net/npm/pdfjs-dist@2.2.228/build/pdf.min.js' */
   pdfJsUrl?: string
+  /** Default: 'https://cdn.jsdelivr.net/npm/pdfjs-dist@2.2.228/web/pdf_viewer.js' */
   pdfViewerJsUrl?: string
 }
 
@@ -42,6 +45,7 @@ export function loadPdfResources(resources?: PdfResources): Promise<any> {
 
 export interface ReadPdfOptions extends PdfResources {
   cMapPacked: boolean
+  /** Default: 'https://cdn.jsdelivr.net/npm/pdfjs-dist@2.2.228/cmaps/' */
   cMapUrl: string
   disableAutoFetch: boolean
   disableCreateObjectURL: boolean

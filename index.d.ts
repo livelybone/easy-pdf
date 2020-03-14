@@ -1,13 +1,15 @@
 interface PdfResources {
+  /** Default: 'https://cdn.jsdelivr.net/npm/pdfjs-dist@2.2.228/web/pdf_viewer.css' */
   pdfViewerCssUrl?: string
+  /** Default: 'https://cdn.jsdelivr.net/npm/pdfjs-dist@2.2.228/build/pdf.min.js' */
   pdfJsUrl?: string
+  /** Default: 'https://cdn.jsdelivr.net/npm/pdfjs-dist@2.2.228/web/pdf_viewer.js' */
   pdfViewerJsUrl?: string
 }
-
 declare function loadPdfResources(resources?: PdfResources): Promise<any>
-
 interface ReadPdfOptions extends PdfResources {
   cMapPacked: boolean
+  /** Default: 'https://cdn.jsdelivr.net/npm/pdfjs-dist@2.2.228/cmaps/' */
   cMapUrl: string
   disableAutoFetch: boolean
   disableCreateObjectURL: boolean
@@ -20,13 +22,11 @@ interface ReadPdfOptions extends PdfResources {
   pdfBug: boolean
   verbosity: number
 }
-
 interface RenderPdfOptions {
   container: HTMLElement
   viewer?: HTMLElement
   readPdfOptions?: ReadPdfOptions
 }
-
 declare function readPdf(
   url: string,
   options?: Pick<
@@ -34,7 +34,6 @@ declare function readPdf(
     Exclude<keyof ReadPdfOptions, 'pdfViewerCssUrl' | 'pdfViewerJsUrl'>
   >,
 ): Promise<any>
-
 declare function renderPdf(
   url: string,
   options: RenderPdfOptions,
@@ -44,7 +43,6 @@ declare function renderPdf(
   pdfjsLib: any
   pdfjsViewer: any
 }>
-
 /**
  * @param pdf         The result of readPdf
  * @param pageIndex
