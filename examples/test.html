@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EasyPDF</title>
+    <script src="../lib/umd/index.js"></script>
+    <style>
+        body {
+            background: #333;
+        }
+
+        .page-viewer {
+            margin: 0 0 10px;
+        }
+
+        .page {
+            margin: 0 0 10px;
+        }
+    </style>
+</head>
+<body>
+<div id="module"></div>
+<div id="module1"></div>
+
+<script>
+var module = document.getElementById('module')
+var module1 = document.getElementById('module1')
+// do something ...
+EasyPDF.renderPdf('./sample.pdf', { container: module }).then(res => {
+  console.log(res)
+})
+EasyPDF.readPdf('./sample.pdf').then(pdf => {
+  EasyPDF.renderPdfPage(pdf, 1, { container: module1 }).then(res => {
+    console.log(res)
+  })
+})
+</script>
+</body>
+</html>
