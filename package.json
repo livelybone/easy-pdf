@@ -1,6 +1,6 @@
 {
   "name": "@livelybone/easy-pdf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "一个简便易用的，原生使用方式的（适用于各大框架）网页端 PDF 渲染插件，也可作为小程序/App webview 中自定义展示 pdf 的解决方案。基于 pdf.js，使用 CDN 异步加载 pdf.js 脚本。An easy to use web side PDF rendering plug-in, can be used as a solution to customize the display of PDF in WeChat-applet/App. Based on [mozilla/pdf.js](https://github.com/mozilla/pdfjs-dist), the js/css is loaded via CDN asynchronously",
   "main": "./lib/umd/index.js",
   "module": "./lib/es/index.js",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/livelybone/@livelybone/easy-pdf.git"
+    "url": "https://github.com/livelybone/easy-pdf.git"
   },
   "keywords": [
     "pdfjs",
@@ -31,9 +31,9 @@
   "author": "2631541504@qq.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/livelybone/@livelybone/easy-pdf/issues"
+    "url": "https://github.com/livelybone/easy-pdf/issues"
   },
-  "homepage": "https://github.com/livelybone/@livelybone/easy-pdf#readme",
+  "homepage": "https://github.com/livelybone/easy-pdf#readme",
   "devDependencies": {
     "@babel/core": "^7.5.0",
     "@babel/plugin-proposal-class-properties": "^7.5.5",

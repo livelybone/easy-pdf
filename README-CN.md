@@ -12,15 +12,15 @@
 一个简便易用的，原生使用方式的（适用于各大框架）网页端 PDF 渲染插件，也可作为小程序/App webview 中自定义展示 pdf 的解决方案。基于 pdf.js，使用 CDN 异步加载 pdf.js 脚本。
 
 ## repository
-https://github.com/livelybone/@livelybone/easy-pdf.git
+https://github.com/livelybone/easy-pdf.git
 
 ## Demo
-https://github.com/livelybone/@livelybone/easy-pdf#readme
+https://github.com/livelybone/easy-pdf#readme
 
 ## Run Example
 你可以通过运行项目的 example 来了解这个组件的使用，以下是启动步骤：
 
-1. 克隆项目到本地 `git clone https://github.com/livelybone/@livelybone/easy-pdf.git`
+1. 克隆项目到本地 `git clone https://github.com/livelybone/easy-pdf.git`
 2. 进入本地克隆目录 `cd your-module-directory`
 3. 安装项目依赖 `npm i`(使用 taobao 源: `npm i --registry=http://registry.npm.taobao.org`)
 4. 启动服务 `npm run dev`

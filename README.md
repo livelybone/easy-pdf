@@ -12,15 +12,15 @@
 An easy to use web side PDF rendering plug-in, can be used as a solution to customize the display of PDF in WeChat-applet/App. Based on [mozilla/pdf.js](https://github.com/mozilla/pdfjs-dist), the js/css is loaded via CDN asynchronously
 
 ## repository
-https://github.com/livelybone/@livelybone/easy-pdf.git
+https://github.com/livelybone/easy-pdf.git
 
 ## Demo
-https://github.com/livelybone/@livelybone/easy-pdf#readme
+https://github.com/livelybone/easy-pdf#readme
 
 ## Run Example
 Your can see the usage by run the example of the module, here is the step:
 
-1. Clone the library `git clone https://github.com/livelybone/@livelybone/easy-pdf.git`
+1. Clone the library `git clone https://github.com/livelybone/easy-pdf.git`
 2. Go to the directory `cd your-module-directory`
 3. Install npm dependencies `npm i`(use taobao registry: `npm i --registry=http://registry.npm.taobao.org`)
 4. Open service `npm run dev`
