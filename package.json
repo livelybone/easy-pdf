@@ -1,7 +1,7 @@
 {
   "name": "@livelybone/easy-pdf",
-  "version": "1.0.5",
-  "description": "一个简便易用的，原生使用方式的（适用于各大框架）网页端 PDF 渲染插件，也可作为小程序/App webview 中自定义展示 pdf 的解决方案。基于 pdf.js，使用 CDN 异步加载 pdf.js 脚本。An easy to use web side PDF rendering plug-in, can be used as a solution to customize the display of PDF in WeChat-applet/App. Based on [mozilla/pdf.js](https://github.com/mozilla/pdfjs-dist), the js/css is loaded via CDN asynchronously",
+  "version": "1.0.6",
+  "description": "An easy-to-use PDF rendering library in browser, can be used as a solution to customize the display of PDF in App. Based on mozilla/pdf.js, the js/css is loaded via CDN asynchronously. 一个简便易用的，原生使用方式的（适用于各大框架）网页端 PDF 渲染插件，也可作为小程序/App webview 中自定义展示 pdf 的解决方案。基于 pdf.js，使用 CDN 异步加载 pdf.js 脚本。",
   "main": "./lib/umd/index.js",
   "module": "./lib/es/index.js",
   "unpkg": "./lib/umd/index.js",

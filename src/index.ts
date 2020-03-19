@@ -39,7 +39,7 @@ export function loadPdfResources(resources?: PdfResources): Promise<any> {
   )
   return Promise.all(arr).catch(e => {
     console.error(e)
-    throw new Error('pdf 脚本加载失败，无法打开 PDF')
+    throw new Error('PDF rendered failed: Scripts loaded failed')
   })
 }
 

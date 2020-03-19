@@ -9,7 +9,7 @@
 
 [中文文档](./README-CN.md)
 
-An easy to use web side PDF rendering plug-in, can be used as a solution to customize the display of PDF in WeChat-applet/App. Based on [mozilla/pdf.js](https://github.com/mozilla/pdfjs-dist), the js/css is loaded via CDN asynchronously
+An easy-to-use PDF rendering library in browser, can be used as a solution to customize the display of PDF in App. Based on [mozilla/pdf.js](https://github.com/mozilla/pdfjs-dist), the js/css is loaded via CDN asynchronously.
 
 ## repository
 https://github.com/livelybone/easy-pdf.git
